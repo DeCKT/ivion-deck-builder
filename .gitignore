@@ -7,7 +7,6 @@
 
 *.txt
 *.py
-*.json
 
 # testing
 /coverage

@@ -1,0 +1,3282 @@
+[
+  {
+    "category": "spec",
+    "spec": "errant",
+    "image_url": "Errantry.png",
+    "colors": ["grey", "white"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "errant",
+    "image_url": "CryOfHavoc.png",
+    "colors": ["grey", "white"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "errant",
+    "image_url": "CutDown.png",
+    "colors": ["grey", "white"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "errant",
+    "image_url": "GallantStrike.png",
+    "colors": ["grey", "white"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "errant",
+    "image_url": "NoMercy.png",
+    "colors": ["grey", "white"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "errant",
+    "image_url": "RelicSite.png",
+    "colors": ["grey", "white"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "errant",
+    "image_url": "RiteOfArms.png",
+    "colors": ["grey", "white"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "errant",
+    "image_url": "StrikeTrue.png",
+    "colors": ["grey", "white"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "spec",
+    "spec": "errant",
+    "image_url": "Swordplay.png",
+    "colors": ["grey", "white"]
+  },
+  {
+    "travel": true,
+    "category": "spec",
+    "spec": "errant",
+    "image_url": "ToBattle.png",
+    "colors": ["grey", "white"]
+  },
+  {
+    "category": "spec",
+    "spec": "errant",
+    "image_url": "WildSteel.png",
+    "colors": ["grey", "white"]
+  },
+  {
+    "category": "spec",
+    "spec": "saint",
+    "image_url": "Godsend.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "saint",
+    "image_url": "Boon.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "spec",
+    "spec": "saint",
+    "image_url": "Dignity.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "saint",
+    "image_url": "FaceMe.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "saint",
+    "image_url": "Fiendslayer.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "saint",
+    "image_url": "Kneel.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "spec",
+    "spec": "saint",
+    "image_url": "Purpose.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "saint",
+    "image_url": "Reforge.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "saint",
+    "image_url": "Sanctify.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "spec",
+    "spec": "saint",
+    "image_url": "SwordOfSaints.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "saint",
+    "image_url": "HeavenStrikes.png",
+    "colors": ["white"]
+  },
+  {
+    "category": "spec",
+    "spec": "enchant",
+    "image_url": "Enchanting.png",
+    "colors": ["white", "red"]
+  },
+  {
+    "type": "attack",
+    "travel": true,
+    "category": "spec",
+    "spec": "enchant",
+    "image_url": "Begone.png",
+    "colors": ["white", "red"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "enchant",
+    "image_url": "Ensorcell.png",
+    "colors": ["white", "red"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "spec",
+    "spec": "enchant",
+    "image_url": "Hush.png",
+    "colors": ["white", "red"]
+  },
+  {
+    "type": "ability",
+    "travel": true,
+    "category": "spec",
+    "spec": "enchant",
+    "image_url": "Jaunt.png",
+    "colors": ["white", "red"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "spec",
+    "spec": "enchant",
+    "image_url": "Lullaby.png",
+    "colors": ["white", "red"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "spec",
+    "spec": "enchant",
+    "image_url": "MyRealm.png",
+    "colors": ["white", "red"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "enchant",
+    "image_url": "PromiseOfPower.png",
+    "colors": ["white", "red"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "enchant",
+    "image_url": "Sleep.png",
+    "colors": ["white", "red"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "spec",
+    "spec": "enchant",
+    "image_url": "SpellBind.png",
+    "colors": ["white", "red"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "spec",
+    "spec": "enchant",
+    "image_url": "Spurn.png",
+    "colors": ["white", "red"]
+  },
+  {
+    "category": "spec",
+    "spec": "invoke",
+    "image_url": "Invoke.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "spec",
+    "spec": "invoke",
+    "image_url": "Apotheosis.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "spec",
+    "spec": "invoke",
+    "image_url": "ChaosOrb.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "invoke",
+    "image_url": "Char.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "invoke",
+    "image_url": "FirePower.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "attack",
+    "instant": true,
+    "category": "spec",
+    "spec": "invoke",
+    "image_url": "Flashburn.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "invoke",
+    "image_url": "Fry.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "invoke",
+    "image_url": "Inferno.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "invoke",
+    "image_url": "Pyre.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "invoke",
+    "image_url": "Sear.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "invoke",
+    "image_url": "Spitfire.png",
+    "colors": ["red"]
+  },
+  {
+    "category": "spec",
+    "spec": "illusion",
+    "image_url": "Confuse.png",
+    "colors": ["green", "blue"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "spec",
+    "spec": "illusion",
+    "image_url": "Echoes.png",
+    "colors": ["green", "blue"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "spec",
+    "spec": "illusion",
+    "image_url": "Hypnotize.png",
+    "colors": ["green", "blue"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "illusion",
+    "image_url": "Mimic.png",
+    "colors": ["green", "blue"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "illusion",
+    "image_url": "MindSpike.png",
+    "colors": ["green", "blue"]
+  },
+  {
+    "type": "ability",
+    "travel": true,
+    "attach": true,
+    "instant": true,
+    "category": "spec",
+    "spec": "illusion",
+    "image_url": "MirrorImage.png",
+    "colors": ["green", "blue"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "illusion",
+    "image_url": "Perplex.png",
+    "colors": ["green", "blue"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "illusion",
+    "image_url": "Phantasma.png",
+    "colors": ["green", "blue"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "spec",
+    "spec": "illusion",
+    "image_url": "Puppeteer.png",
+    "colors": ["green", "blue"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "illusion",
+    "image_url": "Schism.png",
+    "colors": ["green", "blue"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "illusion",
+    "image_url": "Vanity.png",
+    "colors": ["green", "blue"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "arch",
+    "image_url": "Arcana.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "arch",
+    "image_url": "Alter.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "arch",
+    "image_url": "ArcaneBarrage.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "spec",
+    "spec": "arch",
+    "image_url": "Counterspell.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "arch",
+    "image_url": "Disintegrate.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "arch",
+    "image_url": "Enigma.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "arch",
+    "image_url": "Polymorph.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "spec",
+    "spec": "arch",
+    "image_url": "RayOfExhaustion.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "arch",
+    "image_url": "Spellsurge.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "spec",
+    "spec": "arch",
+    "image_url": "TimeSpiral.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "arch",
+    "image_url": "Wish.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "knight",
+    "image_url": "Chastise.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "knight",
+    "image_url": "CleanThyBlade.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "knight",
+    "image_url": "DaringStrike.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "class",
+    "class": "knight",
+    "image_url": "EnchantedLake.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "knight",
+    "image_url": "EnchantedStrike.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "knight",
+    "image_url": "FortheKing.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "knight",
+    "image_url": "HaveAtThee.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "class",
+    "class": "knight",
+    "image_url": "HaveFaith.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "knight",
+    "image_url": "HolyGround.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "knight",
+    "image_url": "Humble.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "class",
+    "class": "knight",
+    "image_url": "Judgement.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "knight",
+    "image_url": "Justice.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "knight",
+    "image_url": "LightofDawn.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "class",
+    "class": "knight",
+    "image_url": "OathStone.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "knight",
+    "image_url": "Proclaim.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "knight",
+    "image_url": "Providence.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "class",
+    "class": "knight",
+    "image_url": "Rebuke.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "knight",
+    "image_url": "Reliquary.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "knight",
+    "image_url": "StandAside.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "travel": true,
+    "category": "class",
+    "class": "knight",
+    "image_url": "ThrowTheGauntlet.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "class",
+    "class": "sorc",
+    "image_url": "Ashes2Ashes.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "class",
+    "class": "sorc",
+    "image_url": "Blur.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "class",
+    "class": "sorc",
+    "image_url": "ChaosStorm.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "sorc",
+    "image_url": "EmberCrash.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "sorc",
+    "image_url": "Enfeeble.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "sorc",
+    "image_url": "Flare.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "sorc",
+    "image_url": "FlickoftheWrist.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "class",
+    "class": "sorc",
+    "image_url": "Glare.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "sorc",
+    "image_url": "InnerFire.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "sorc",
+    "image_url": "Ire.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "travel": true,
+    "instant": true,
+    "category": "class",
+    "class": "sorc",
+    "image_url": "LashOut.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "sorc",
+    "image_url": "MakeSo.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "sorc",
+    "image_url": "Melt.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "sorc",
+    "image_url": "RipMagic.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "sorc",
+    "image_url": "Scorn.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "sorc",
+    "image_url": "Singe.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "class",
+    "class": "sorc",
+    "image_url": "Sorcery.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "sorc",
+    "image_url": "Warpfire.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "sorc",
+    "image_url": "WildMagic.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "class": "sorc",
+    "image_url": "Wither.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "wiz",
+    "image_url": "ArcaneLock.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "wiz",
+    "image_url": "Befuddle.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "wiz",
+    "image_url": "Comet.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "wiz",
+    "image_url": "CosmicBlast.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "wiz",
+    "image_url": "Dismiss.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "wiz",
+    "image_url": "Eureka.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "wiz",
+    "image_url": "Flux.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "wiz",
+    "image_url": "Leyline.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "wiz",
+    "image_url": "MagicMissiles.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "wiz",
+    "image_url": "Manafold.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "class",
+    "class": "wiz",
+    "image_url": "Quicken.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "class",
+    "class": "wiz",
+    "image_url": "ShootingStars.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "wiz",
+    "image_url": "Spellsling.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "class",
+    "class": "wiz",
+    "image_url": "Spellsteal.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "wiz",
+    "image_url": "Starlight.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "wiz",
+    "image_url": "Stop.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "travel": true,
+    "category": "class",
+    "class": "wiz",
+    "image_url": "Telekinesis.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "travel": true,
+    "category": "class",
+    "class": "wiz",
+    "image_url": "Teleport.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "class",
+    "class": "wiz",
+    "image_url": "Unravel.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "class",
+    "class": "wiz",
+    "image_url": "Vortex.png",
+    "colors": ["blue"]
+  },
+  { "category": "relic", "image_url": "AshenBlade.png" },
+  { "category": "relic", "image_url": "BlessedGrail.png" },
+  { "category": "relic", "image_url": "DivineStrength.png" },
+  { "category": "relic", "image_url": "PilgrimsTome.png" },
+  { "category": "relic", "image_url": "PrismaticLight.png" },
+  { "category": "relic", "image_url": "RadiantMantle.png" },
+  { "category": "relic", "image_url": "StoicHelm.png" },
+  { "category": "relic", "image_url": "SymbolOfWrath.png" },
+  {
+    "category": "spec",
+    "spec": "ava",
+    "image_url": "Transcend.png",
+    "colors": ["white", "blue"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "ava",
+    "image_url": "Bind.png",
+    "colors": ["white", "blue"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "ava",
+    "image_url": "Insight.png",
+    "colors": ["white", "blue"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "spec",
+    "spec": "ava",
+    "image_url": "Pacify.png",
+    "colors": ["white", "blue"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "ava",
+    "image_url": "Placate.png",
+    "colors": ["white", "blue"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "ava",
+    "image_url": "Renew.png",
+    "colors": ["white", "blue"]
+  },
+  {
+    "type": "attack",
+    "instant": true,
+    "category": "spec",
+    "spec": "ava",
+    "image_url": "Repercussion.png",
+    "colors": ["white", "blue"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "spec",
+    "spec": "ava",
+    "image_url": "Repurpose.png",
+    "colors": ["white", "blue"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "spec",
+    "spec": "ava",
+    "image_url": "Tranquility.png",
+    "colors": ["white", "blue"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "ava",
+    "image_url": "Uninhibit.png",
+    "colors": ["white", "blue"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "ava",
+    "image_url": "WiseWords.png",
+    "colors": ["white", "blue"]
+  },
+  {
+    "category": "spec",
+    "spec": "inc",
+    "image_url": "PowerIncarnate.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "inc",
+    "image_url": "CeaseToBe.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "inc",
+    "image_url": "Crackel.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "instant": true,
+    "category": "spec",
+    "spec": "inc",
+    "image_url": "Disperse.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "inc",
+    "image_url": "End.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "inc",
+    "image_url": "Intrude.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "inc",
+    "image_url": "Pulse.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "inc",
+    "image_url": "Splinter.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "spec",
+    "spec": "inc",
+    "image_url": "Stabilize.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "inc",
+    "image_url": "Unbind.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "inc",
+    "image_url": "Unmake.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "curse",
+    "image_url": "CursedDagger.png",
+    "colors": ["black", "red"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "spec",
+    "spec": "curse",
+    "image_url": "BlackfireScars.png",
+    "colors": ["black", "red"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "curse",
+    "image_url": "CurseOfEntropy.png",
+    "colors": ["black", "red"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "spec",
+    "spec": "curse",
+    "image_url": "CurseOfHysteria.png",
+    "colors": ["black", "red"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "spec",
+    "spec": "curse",
+    "image_url": "CurseOfMania.png",
+    "colors": ["black", "red"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "curse",
+    "image_url": "EbonFeint.png",
+    "colors": ["black", "red"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "spec",
+    "spec": "curse",
+    "image_url": "EbonPowder.png",
+    "colors": ["black", "red"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "curse",
+    "image_url": "HeartSeeker.png",
+    "colors": ["black", "red"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "curse",
+    "image_url": "RavenPierce.png",
+    "colors": ["black", "red"]
+  },
+  {
+    "type": "ability",
+    "travel": true,
+    "instant": true,
+    "category": "spec",
+    "spec": "curse",
+    "image_url": "ShadowBurst.png",
+    "colors": ["black", "red"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "curse",
+    "image_url": "WickedStab.png",
+    "colors": ["black", "red"]
+  },
+  {
+    "category": "spec",
+    "spec": "ebon",
+    "image_url": "NightInfusion.png",
+    "colors": ["black"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "ebon",
+    "image_url": "BlackOut.png",
+    "colors": ["black"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "instant": true,
+    "category": "spec",
+    "spec": "ebon",
+    "image_url": "DarkSigil.png",
+    "colors": ["black"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "ebon",
+    "image_url": "DoomHex.png",
+    "colors": ["black"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "ebon",
+    "image_url": "EbonBolt.png",
+    "colors": ["black"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "spec",
+    "spec": "ebon",
+    "image_url": "IllOmen.png",
+    "colors": ["black"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "ebon",
+    "image_url": "NightFall.png",
+    "colors": ["black"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "ebon",
+    "image_url": "Nightmare.png",
+    "colors": ["black"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "ebon",
+    "image_url": "ShadowFeed.png",
+    "colors": ["black"]
+  },
+  {
+    "type": "attack",
+    "travel": true,
+    "category": "spec",
+    "spec": "ebon",
+    "image_url": "ShadowLance.png",
+    "colors": ["black"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "spec",
+    "spec": "ebon",
+    "image_url": "Taint.png",
+    "colors": ["black"]
+  },
+  {
+    "category": "spec",
+    "spec": "jarl",
+    "image_url": "HeraldicMail.png",
+    "colors": ["red", "grey"]
+  },
+  {
+    "type": "attack",
+    "instant": true,
+    "category": "spec",
+    "spec": "jarl",
+    "image_url": "BackHand.png",
+    "colors": ["red", "grey"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "spec",
+    "spec": "jarl",
+    "image_url": "BannerOfTheJarl.png",
+    "colors": ["red", "grey"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "spec",
+    "spec": "jarl",
+    "image_url": "BladeBlock.png",
+    "colors": ["red", "grey"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "jarl",
+    "image_url": "Conquer.png",
+    "colors": ["red", "grey"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "spec",
+    "spec": "jarl",
+    "image_url": "Dominance.png",
+    "colors": ["red", "grey"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "jarl",
+    "image_url": "Overwhelm.png",
+    "colors": ["red", "grey"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "spec",
+    "spec": "jarl",
+    "image_url": "SpitUpon.png",
+    "colors": ["red", "grey"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "jarl",
+    "image_url": "Succeed.png",
+    "colors": ["red", "grey"]
+  },
+  {
+    "type": "ability",
+    "travel": true,
+    "category": "spec",
+    "spec": "jarl",
+    "image_url": "ToTheFray.png",
+    "colors": ["red", "grey"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "jarl",
+    "image_url": "Vanquish.png",
+    "colors": ["red", "grey"]
+  },
+  {
+    "category": "spec",
+    "spec": "ancient",
+    "image_url": "Gargantuan.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "attack",
+    "travel": true,
+    "category": "spec",
+    "spec": "ancient",
+    "image_url": "BatteringRam.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "ancient",
+    "image_url": "Bellow.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "ancient",
+    "image_url": "Crunch.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "ancient",
+    "image_url": "HurtTerrain.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "travel": true,
+    "category": "spec",
+    "spec": "ancient",
+    "image_url": "Lumber.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "ancient",
+    "image_url": "Mayhem.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "ancient",
+    "image_url": "Rummage.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "ancient",
+    "image_url": "SplitTheLand.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "attack",
+    "travel": true,
+    "instant": true,
+    "category": "spec",
+    "spec": "ancient",
+    "image_url": "SwatAway.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "ancient",
+    "image_url": "TreadUpon.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "watch",
+    "image_url": "RavensEye.png",
+    "colors": ["blue", "grey"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "spec",
+    "spec": "watch",
+    "image_url": "CrystalShackles.png",
+    "colors": ["blue", "grey"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "watch",
+    "image_url": "CrystalSlash.png",
+    "colors": ["blue", "grey"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "watch",
+    "image_url": "Enmist.png",
+    "colors": ["blue", "grey"]
+  },
+  {
+    "type": "attack",
+    "travel": true,
+    "category": "spec",
+    "spec": "watch",
+    "image_url": "EvasiveStrike.png",
+    "colors": ["blue", "grey"]
+  },
+  {
+    "type": "attack",
+    "instant": true,
+    "category": "spec",
+    "spec": "watch",
+    "image_url": "FromTheFog.png",
+    "colors": ["blue", "grey"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "instant": true,
+    "category": "spec",
+    "spec": "watch",
+    "image_url": "Heed.png",
+    "colors": ["blue", "grey"]
+  },
+  {
+    "type": "ability",
+    "travel": true,
+    "instant": true,
+    "category": "spec",
+    "spec": "watch",
+    "image_url": "Mistline.png",
+    "colors": ["blue", "grey"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "watch",
+    "image_url": "Mystify.png",
+    "colors": ["blue", "grey"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "spec",
+    "spec": "watch",
+    "image_url": "Outmatch.png",
+    "colors": ["blue", "grey"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "spec",
+    "spec": "watch",
+    "image_url": "RavensRiddle.png",
+    "colors": ["blue", "grey"]
+  },
+  {
+    "category": "spec",
+    "spec": "winter",
+    "image_url": "Winterburst.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "spec",
+    "spec": "winter",
+    "image_url": "Blizzard.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "spec",
+    "spec": "winter",
+    "image_url": "DeepSnow.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "winter",
+    "image_url": "Freeze.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "travel": true,
+    "instant": true,
+    "category": "spec",
+    "spec": "winter",
+    "image_url": "FrigidGale.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "spec",
+    "spec": "winter",
+    "image_url": "FrostBite.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "winter",
+    "image_url": "FrostHelix.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "winter",
+    "image_url": "IceFlurry.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "spec",
+    "spec": "winter",
+    "image_url": "Shiver.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "winter",
+    "image_url": "SnowClutch.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "winter",
+    "image_url": "Winterheart.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "hunt",
+    "image_url": "RunicSlaughter.png",
+    "colors": ["green", "black"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "hunt",
+    "image_url": "Gravebrand.png",
+    "colors": ["green", "black"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "travel": true,
+    "category": "spec",
+    "spec": "hunt",
+    "image_url": "OnTheHunt.png",
+    "colors": ["green", "black"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "hunt",
+    "image_url": "Runecarve.png",
+    "colors": ["green", "black"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "spec",
+    "spec": "hunt",
+    "image_url": "RunecarveEtch.png",
+    "colors": ["green", "black"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "hunt",
+    "image_url": "Runeshock.png",
+    "colors": ["green", "black"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "hunt",
+    "image_url": "Runesight.png",
+    "colors": ["green", "black"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "spec",
+    "spec": "hunt",
+    "image_url": "RunesightEtch.png",
+    "colors": ["green", "black"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "spec",
+    "spec": "hunt",
+    "image_url": "Savagery.png",
+    "colors": ["green", "black"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "hunt",
+    "image_url": "Spoil.png",
+    "colors": ["green", "black"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "spec",
+    "spec": "hunt",
+    "image_url": "Waystone.png",
+    "colors": ["green", "black"]
+  },
+  {
+    "category": "spec",
+    "spec": "wild",
+    "image_url": "WildRoots.png",
+    "colors": ["green"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "wild",
+    "image_url": "BrambleLash.png",
+    "colors": ["green"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "wild",
+    "image_url": "EchoOfYore.png",
+    "colors": ["green"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "spec",
+    "spec": "wild",
+    "image_url": "Fernstalkers.png",
+    "colors": ["green"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "spec",
+    "spec": "wild",
+    "image_url": "Mend.png",
+    "colors": ["green"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "spec",
+    "spec": "wild",
+    "image_url": "RootSwipe.png",
+    "colors": ["green"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "wild",
+    "image_url": "Solace.png",
+    "colors": ["green"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "spec",
+    "spec": "wild",
+    "image_url": "Thornspread.png",
+    "colors": ["green"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "wild",
+    "image_url": "Thrash.png",
+    "colors": ["green"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "wild",
+    "image_url": "Uproot.png",
+    "colors": ["green"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "wild",
+    "image_url": "WildGrowth.png",
+    "colors": ["green"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "spec",
+    "spec": "surv",
+    "image_url": "Perservere.png",
+    "colors": ["green", "grey"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "surv",
+    "image_url": "AxeStrikes.png",
+    "colors": ["green", "grey"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "spec",
+    "spec": "surv",
+    "image_url": "HiddenCache.png",
+    "colors": ["green", "grey"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "surv",
+    "image_url": "IcePick.png",
+    "colors": ["green", "grey"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "surv",
+    "image_url": "JavelinThrow.png",
+    "colors": ["green", "grey"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "instant": true,
+    "category": "spec",
+    "spec": "surv",
+    "image_url": "Pitfall.png",
+    "colors": ["green", "grey"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "surv",
+    "image_url": "Recover.png",
+    "colors": ["green", "grey"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "surv",
+    "image_url": "Retrieve.png",
+    "colors": ["green", "grey"]
+  },
+  {
+    "type": "attack",
+    "instant": true,
+    "category": "spec",
+    "spec": "surv",
+    "image_url": "SlingRock.png",
+    "colors": ["green", "grey"]
+  },
+  {
+    "type": "ability",
+    "travel": true,
+    "category": "spec",
+    "spec": "surv",
+    "image_url": "TreadLightly.png",
+    "colors": ["green", "grey"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "spec",
+    "spec": "surv",
+    "image_url": "WildMedicine.png",
+    "colors": ["green", "grey"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "stew",
+    "image_url": "ShieldSlam.png",
+    "colors": ["grey"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "spec",
+    "spec": "stew",
+    "image_url": "CrushingWeight.png",
+    "colors": ["grey"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "stew",
+    "image_url": "Determination.png",
+    "colors": ["grey"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "stew",
+    "image_url": "HammerAndAnvil.png",
+    "colors": ["grey"]
+  },
+  {
+    "type": "attack",
+    "category": "spec",
+    "spec": "stew",
+    "image_url": "HammerStrike.png",
+    "colors": ["grey"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "spec",
+    "spec": "stew",
+    "image_url": "Reflect.png",
+    "colors": ["grey"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "spec",
+    "spec": "stew",
+    "image_url": "ShieldBash.png",
+    "colors": ["grey"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "spec",
+    "spec": "stew",
+    "image_url": "ShieldWall.png",
+    "colors": ["grey"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "spec",
+    "spec": "stew",
+    "image_url": "ShrugOff.png",
+    "colors": ["grey"]
+  },
+  {
+    "type": "ability",
+    "category": "spec",
+    "spec": "stew",
+    "image_url": "SplitBone.png",
+    "colors": ["grey"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "spec",
+    "spec": "stew",
+    "image_url": "StewardsBanner.png",
+    "colors": ["grey"]
+  },
+  {
+    "type": "attack",
+    "instant": true,
+    "category": "class",
+    "class": "man",
+    "image_url": "CalmSpirit.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "travel": true,
+    "category": "class",
+    "class": "man",
+    "image_url": "CastAway.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "attack",
+    "instant": true,
+    "category": "class",
+    "class": "man",
+    "image_url": "EgoShock.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "class",
+    "class": "man",
+    "image_url": "Empower.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "man",
+    "image_url": "Energize.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "man",
+    "image_url": "Epiphany.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "man",
+    "image_url": "FreeSpirit.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "man",
+    "image_url": "Harmony.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "class",
+    "class": "man",
+    "image_url": "Projection.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "attack",
+    "instant": true,
+    "category": "class",
+    "class": "man",
+    "image_url": "QuietSpirit.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "man",
+    "image_url": "Realization.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "man",
+    "image_url": "RevealSpirit.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "man",
+    "image_url": "RivenOfSpirit.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "travel": true,
+    "category": "class",
+    "class": "man",
+    "image_url": "SpiritJourney.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "man",
+    "image_url": "SpiritRend.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "man",
+    "image_url": "SpiritSurge.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "attack",
+    "instant": true,
+    "category": "class",
+    "class": "man",
+    "image_url": "StillSpirit.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "man",
+    "image_url": "TrueFocus.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "man",
+    "image_url": "Unison.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "class",
+    "class": "man",
+    "image_url": "WordOfPeace.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "class",
+    "class": "witch",
+    "image_url": "Bewitch.png",
+    "colors": ["black"]
+  },
+  {
+    "type": "ability",
+    "travel": true,
+    "category": "class",
+    "class": "witch",
+    "image_url": "BlackFlight.png",
+    "colors": ["black"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "class",
+    "class": "witch",
+    "image_url": "BlackMagic.png",
+    "colors": ["black"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "witch",
+    "image_url": "Cursebolts.png",
+    "colors": ["black"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "class",
+    "class": "witch",
+    "image_url": "CurseOfDementia.png",
+    "colors": ["black"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "witch",
+    "image_url": "DarkLitany.png",
+    "colors": ["black"]
+  },
+  {
+    "type": "ability",
+    "travel": true,
+    "instant": true,
+    "category": "class",
+    "class": "witch",
+    "image_url": "FeatherWind.png",
+    "colors": ["black"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "witch",
+    "image_url": "FeelTheSigns.png",
+    "colors": ["black"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "witch",
+    "image_url": "Harrow.png",
+    "colors": ["black"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "witch",
+    "image_url": "LifeDrain.png",
+    "colors": ["black"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "witch",
+    "image_url": "PainHex.png",
+    "colors": ["black"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "witch",
+    "image_url": "RavenBolt.png",
+    "colors": ["black"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "witch",
+    "image_url": "RavenShift.png",
+    "colors": ["black"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "witch",
+    "image_url": "RavenSight.png",
+    "colors": ["black"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "witch",
+    "image_url": "SpiritSiphon.png",
+    "colors": ["black"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "witch",
+    "image_url": "TwiceScorned.png",
+    "colors": ["black"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "class",
+    "class": "witch",
+    "image_url": "WiltHex.png",
+    "colors": ["black"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "class",
+    "class": "witch",
+    "image_url": "Witchcraft.png",
+    "colors": ["black"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "class",
+    "class": "witch",
+    "image_url": "WitherHex.png",
+    "colors": ["black"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "class",
+    "class": "witch",
+    "image_url": "WitheringCurse.png",
+    "colors": ["black"]
+  },
+  {
+    "type": "ability",
+    "travel": true,
+    "category": "class",
+    "class": "giant",
+    "image_url": "BullRush.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "travel": true,
+    "category": "class",
+    "class": "giant",
+    "image_url": "Bumble.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "giant",
+    "image_url": "Clobber.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "class",
+    "class": "giant",
+    "image_url": "Debris.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "giant",
+    "image_url": "Demolish.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "class",
+    "class": "giant",
+    "image_url": "Enrage.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "class",
+    "class": "giant",
+    "image_url": "FaultLine.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "class",
+    "class": "giant",
+    "image_url": "GiantSkin.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "giant",
+    "image_url": "GiantsStrength.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "giant",
+    "image_url": "Grab.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "class",
+    "class": "giant",
+    "image_url": "Infuriate.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "giant",
+    "image_url": "Munch.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "class",
+    "class": "giant",
+    "image_url": "Overlook.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "giant",
+    "image_url": "Raze.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "giant",
+    "image_url": "Smash.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "giant",
+    "image_url": "StunningBlow.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "giant",
+    "image_url": "ThinkingTime.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "class",
+    "class": "giant",
+    "image_url": "Timber.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "attack",
+    "travel": true,
+    "category": "class",
+    "class": "giant",
+    "image_url": "Toss.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "travel": true,
+    "category": "class",
+    "class": "giant",
+    "image_url": "Tremors.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "cryo",
+    "image_url": "Attrition.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "travel": true,
+    "category": "class",
+    "class": "cryo",
+    "image_url": "Avalanche.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "cryo",
+    "image_url": "ColdShape.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "cryo",
+    "image_url": "ColdSnap.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "class",
+    "class": "cryo",
+    "image_url": "Cryostasis.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "class",
+    "class": "cryo",
+    "image_url": "CrystalBlade.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "class",
+    "class": "cryo",
+    "image_url": "FlashFreeze.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "class",
+    "class": "cryo",
+    "image_url": "FractalBurst.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "class",
+    "class": "cryo",
+    "image_url": "FrostSnatch.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "cryo",
+    "image_url": "Glacialize.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "cryo",
+    "image_url": "HailStorm.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "cryo",
+    "image_url": "Icebolt.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "cryo",
+    "image_url": "Permafrost.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "cryo",
+    "image_url": "RimeShock.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "cryo",
+    "image_url": "Shatter.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "cryo",
+    "image_url": "SleetBlast.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "travel": true,
+    "category": "class",
+    "class": "cryo",
+    "image_url": "SnowBlast.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "cryo",
+    "image_url": "Snowslide.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "class",
+    "class": "cryo",
+    "image_url": "ThinIce.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "class",
+    "class": "cryo",
+    "image_url": "Wintertide.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "druid",
+    "image_url": "Bloom.png",
+    "colors": ["green"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "druid",
+    "image_url": "Brambleroots.png",
+    "colors": ["green"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "druid",
+    "image_url": "DruidicLore.png",
+    "colors": ["green"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "druid",
+    "image_url": "DruidicStrike.png",
+    "colors": ["green"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "class",
+    "class": "druid",
+    "image_url": "EmeraldSeed.png",
+    "colors": ["green"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "druid",
+    "image_url": "MemoryofYore.png",
+    "colors": ["green"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "class",
+    "class": "druid",
+    "image_url": "Replenish.png",
+    "colors": ["green"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "druid",
+    "image_url": "Reseed.png",
+    "colors": ["green"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "druid",
+    "image_url": "Restoration.png",
+    "colors": ["green"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "class",
+    "class": "druid",
+    "image_url": "ReturnToMyth.png",
+    "colors": ["green"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "class",
+    "class": "druid",
+    "image_url": "Revitalize.png",
+    "colors": ["green"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "druid",
+    "image_url": "SlashOfYore.png",
+    "colors": ["green"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "class",
+    "class": "druid",
+    "image_url": "TangleRoam.png",
+    "colors": ["green"]
+  },
+  {
+    "type": "attack",
+    "travel": true,
+    "category": "class",
+    "class": "druid",
+    "image_url": "Thornpath.png",
+    "colors": ["green"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "class",
+    "class": "druid",
+    "image_url": "Thrive.png",
+    "colors": ["green"]
+  },
+  {
+    "type": "attack",
+    "attach": true,
+    "category": "class",
+    "class": "druid",
+    "image_url": "VerdantSlash.png",
+    "colors": ["green"]
+  },
+  {
+    "type": "attack",
+    "attach": true,
+    "category": "class",
+    "class": "druid",
+    "image_url": "VerdantStrike.png",
+    "colors": ["green"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "class",
+    "class": "druid",
+    "image_url": "VineSnap.png",
+    "colors": ["green"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "class",
+    "class": "druid",
+    "image_url": "Wispform.png",
+    "colors": ["green"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "class",
+    "class": "druid",
+    "image_url": "Wonder.png",
+    "colors": ["green"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "war",
+    "image_url": "BattleLust.png",
+    "colors": ["grey"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "class",
+    "class": "war",
+    "image_url": "BloodSpatter.png",
+    "colors": ["grey"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "class",
+    "class": "war",
+    "image_url": "Block.png",
+    "colors": ["grey"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "war",
+    "image_url": "CarefulStrike.png",
+    "colors": ["grey"]
+  },
+  {
+    "type": "ability",
+    "travel": true,
+    "instant": true,
+    "category": "class",
+    "class": "war",
+    "image_url": "Challenge.png",
+    "colors": ["grey"]
+  },
+  {
+    "type": "ability",
+    "travel": true,
+    "category": "class",
+    "class": "war",
+    "image_url": "Charge.png",
+    "colors": ["grey"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "war",
+    "image_url": "Cripple.png",
+    "colors": ["grey"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "war",
+    "image_url": "Crush.png",
+    "colors": ["grey"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "war",
+    "image_url": "Dismember.png",
+    "colors": ["grey"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "class",
+    "class": "war",
+    "image_url": "Duck.png",
+    "colors": ["grey"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "class",
+    "class": "war",
+    "image_url": "FightWithHonor.png",
+    "colors": ["grey"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "class",
+    "class": "war",
+    "image_url": "Goad.png",
+    "colors": ["grey"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "war",
+    "image_url": "Intimidate.png",
+    "colors": ["grey"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "war",
+    "image_url": "Lame.png",
+    "colors": ["grey"]
+  },
+  {
+    "type": "attack",
+    "instant": true,
+    "category": "class",
+    "class": "war",
+    "image_url": "PommelStrike.png",
+    "colors": ["grey"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "war",
+    "image_url": "SeizeTheDay.png",
+    "colors": ["grey"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "war",
+    "image_url": "Sever.png",
+    "colors": ["grey"]
+  },
+  {
+    "type": "ability",
+    "category": "class",
+    "class": "war",
+    "image_url": "Tenacity.png",
+    "colors": ["grey"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "class",
+    "class": "war",
+    "image_url": "WarriorsBanner.png",
+    "colors": ["grey"]
+  },
+  {
+    "type": "attack",
+    "category": "class",
+    "class": "war",
+    "image_url": "WarriorsStrike.png",
+    "colors": ["grey"]
+  },
+  {
+    "type": "passive",
+    "category": "trait",
+    "image_url": "AccursedStrength.png",
+    "colors": ["red", "black"]
+  },
+  {
+    "type": "ability",
+    "category": "trait",
+    "image_url": "Aphasia.png",
+    "colors": ["green", "black"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "trait",
+    "image_url": "ArcticWind.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "passive",
+    "category": "trait",
+    "image_url": "BeneathMe.png",
+    "colors": ["red", "grey"]
+  },
+  {
+    "type": "passive",
+    "category": "trait",
+    "image_url": "Birdrest.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "passive",
+    "category": "trait",
+    "image_url": "BitingCold.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "attack",
+    "travel": true,
+    "category": "trait",
+    "image_url": "BloodHunger.png",
+    "colors": ["red", "green"]
+  },
+  {
+    "type": "ability",
+    "category": "trait",
+    "image_url": "Coldblast.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "passive",
+    "category": "trait",
+    "image_url": "CollateralDamage.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "passive",
+    "category": "trait",
+    "image_url": "Concussive.png",
+    "colors": ["grey"]
+  },
+  {
+    "type": "passive",
+    "category": "trait",
+    "image_url": "CounterMagic.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "category": "trait",
+    "image_url": "CryOfTheFlock.png",
+    "colors": ["black"]
+  },
+  {
+    "type": "ability",
+    "category": "trait",
+    "image_url": "CrystalBall.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "category": "trait",
+    "image_url": "CrystalFocus.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "category": "trait",
+    "image_url": "CurseWeave.png",
+    "colors": ["black"]
+  },
+  {
+    "type": "passive",
+    "category": "trait",
+    "image_url": "Destiny.png",
+    "colors": ["white"]
+  },
+  { "type": "passive", "category": "trait", "image_url": "Dilettante.png" },
+  {
+    "type": "passive",
+    "category": "trait",
+    "image_url": "Distortion.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "attack",
+    "category": "trait",
+    "image_url": "DoomBolt.png",
+    "colors": ["black"]
+  },
+  {
+    "type": "attack",
+    "category": "trait",
+    "image_url": "Dream.png",
+    "colors": ["blue", "green"]
+  },
+  {
+    "travel": true,
+    "type": "ability",
+    "category": "trait",
+    "image_url": "Dreamstep.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "category": "trait",
+    "image_url": "DruidicRite.png",
+    "colors": ["green"]
+  },
+  {
+    "type": "passive",
+    "category": "trait",
+    "image_url": "EmeraldWrath.png",
+    "colors": ["green"]
+  },
+  {
+    "type": "ability",
+    "category": "trait",
+    "image_url": "Enchant.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "passive",
+    "category": "trait",
+    "image_url": "Endurance.png",
+    "colors": ["grey"]
+  },
+  {
+    "type": "ability",
+    "category": "trait",
+    "image_url": "Enlighten.png",
+    "colors": ["blue", "white"]
+  },
+  {
+    "type": "passive",
+    "category": "trait",
+    "image_url": "Etherean.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "category": "trait",
+    "image_url": "Explode.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "passive",
+    "category": "trait",
+    "image_url": "Fragments.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "passive",
+    "category": "trait",
+    "image_url": "Giantheart.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "attack",
+    "category": "trait",
+    "image_url": "Hammerfall.png",
+    "colors": ["grey"]
+  },
+  {
+    "type": "ability",
+    "category": "trait",
+    "image_url": "HandWave.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "attack",
+    "category": "trait",
+    "image_url": "HowlsOfTheLost.png",
+    "colors": ["black"]
+  },
+  {
+    "type": "passive",
+    "category": "trait",
+    "image_url": "HuntMaster.png",
+    "colors": ["black", "green"]
+  },
+  {
+    "type": "attack",
+    "category": "trait",
+    "image_url": "Icicle.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "attack",
+    "category": "trait",
+    "image_url": "InamisVerdict.png",
+    "colors": ["white", "red"]
+  },
+  {
+    "type": "passive",
+    "category": "trait",
+    "image_url": "Indecisive.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "passive",
+    "category": "trait",
+    "image_url": "LayOfTheLand.png",
+    "colors": ["green"]
+  },
+  {
+    "type": "passive",
+    "attach": true,
+    "category": "trait",
+    "image_url": "LifeSeed.png",
+    "colors": ["green"]
+  },
+  {
+    "type": "attack",
+    "category": "trait",
+    "image_url": "LightningSpear.png",
+    "colors": ["grey", "red"]
+  },
+  {
+    "type": "passive",
+    "category": "trait",
+    "image_url": "Looming.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "passive",
+    "category": "trait",
+    "image_url": "Majesty.png",
+    "colors": ["red", "white"]
+  },
+  {
+    "type": "ability",
+    "category": "trait",
+    "image_url": "ManifestPower.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "trait",
+    "image_url": "Mark.png",
+    "colors": ["blue", "grey"]
+  },
+  {
+    "type": "passive",
+    "category": "trait",
+    "image_url": "Mentor.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "category": "trait",
+    "image_url": "Mute.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "category": "trait",
+    "image_url": "Nurture.png",
+    "colors": ["green"]
+  },
+  {
+    "type": "passive",
+    "category": "trait",
+    "image_url": "OathBearer.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "passive",
+    "category": "trait",
+    "image_url": "OnYourFeet.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "category": "trait",
+    "image_url": "Ponder.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "ability",
+    "travel": true,
+    "category": "trait",
+    "image_url": "PressOn.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "passive",
+    "category": "trait",
+    "image_url": "Prodigy.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "attack",
+    "category": "trait",
+    "image_url": "Punch.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "category": "trait",
+    "image_url": "Quest.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "attach": true,
+    "category": "trait",
+    "image_url": "Regenerate.png",
+    "colors": ["green"]
+  },
+  {
+    "type": "passive",
+    "category": "trait",
+    "image_url": "Resilience.png",
+    "colors": ["grey"]
+  },
+  {
+    "type": "ability",
+    "category": "trait",
+    "image_url": "ScourSpirit.png",
+    "colors": ["black"]
+  },
+  {
+    "type": "ability",
+    "travel": true,
+    "category": "trait",
+    "image_url": "Shift.png",
+    "colors": ["green", "grey"]
+  },
+  {
+    "type": "ability",
+    "category": "trait",
+    "image_url": "SootheSpirit.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "category": "trait",
+    "image_url": "Spellbook.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "passive",
+    "category": "trait",
+    "image_url": "Spellwake.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "attack",
+    "category": "trait",
+    "image_url": "SpiritDrain.png",
+    "colors": ["black"]
+  },
+  {
+    "type": "ability",
+    "travel": true,
+    "category": "trait",
+    "image_url": "SpiritGate.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "passive",
+    "category": "trait",
+    "image_url": "StrengthofSpirit.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "attack",
+    "category": "trait",
+    "image_url": "Strike.png",
+    "colors": ["grey"]
+  },
+  {
+    "type": "passive",
+    "category": "trait",
+    "image_url": "StriveForGlory.png",
+    "colors": ["white", "grey"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "trait",
+    "image_url": "Superstition.png",
+    "colors": ["grey"]
+  },
+  {
+    "type": "passive",
+    "category": "trait",
+    "image_url": "ThirdWind.png",
+    "colors": ["grey"]
+  },
+  {
+    "type": "ability",
+    "category": "trait",
+    "image_url": "ThreeWishes.png",
+    "colors": ["blue", "green"]
+  },
+  {
+    "type": "ability",
+    "category": "trait",
+    "image_url": "Timerunner.png",
+    "colors": ["blue"]
+  },
+  {
+    "type": "passive",
+    "category": "trait",
+    "image_url": "TricksAndToys.png",
+    "colors": ["grey", "green"]
+  },
+  {
+    "type": "ability",
+    "category": "trait",
+    "image_url": "Unbound.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "ability",
+    "category": "trait",
+    "image_url": "Upheaval.png",
+    "colors": ["red"]
+  },
+  {
+    "type": "passive",
+    "category": "trait",
+    "image_url": "Valor.png",
+    "colors": ["white"]
+  },
+  {
+    "type": "ability",
+    "category": "trait",
+    "image_url": "VerdantBurst.png",
+    "colors": ["green"]
+  },
+  {
+    "type": "ability",
+    "instant": true,
+    "category": "trait",
+    "image_url": "Wary.png",
+    "colors": ["blue", "grey"]
+  },
+  {
+    "type": "passive",
+    "category": "trait",
+    "image_url": "WinterMark.png",
+    "colors": ["blue"]
+  }
+]
