@@ -59,44 +59,48 @@ function DeckBuilder() {
 
   return (
     <>
-      <div style={{ gridArea: "left" }}>
-        {activeFilters.map((filter) => (
-          <span>{filter}</span>
-        ))}
-      </div>
       <div id="builder-container">
         <ul>
-          {cards.map((card, index) => {
-            const cardAttributes = () =>
-              `${card.category ? `${card.category} ` : ""}${
-                card.type ? `${card.type} ` : ""
-              }${card.instant ? "instant " : ""}${
-                card.travel ? "travel " : ""
-              }${card.attach ? "attach " : ""}${
-                card.class ? `${card.class} ` : ""
-              }${card.spec ? `${card.spec} ` : ""}${
-                card.colors ? card.colors.join(" ") : ""
-              }`;
-            let isShown;
-            if (activeFilters.length > 0) {
-              isShown = false;
-              activeFilters.forEach((filter) => {
-                if (cardAttributes().includes(filter)) {
-                  isShown = true;
-                }
-              });
-            } else {
-              isShown = true;
-            }
-            return (
-              <li key={index} className={isShown ? "shown" : "hidden"}>
-                <img
-                  src={card.imageUrl}
-                  alt={`${card.image_url.split(".")[0]} card`}
-                />
-              </li>
-            );
-          })}
+          {cards
+            .sort((a, b) =>
+              a.image_url.toUpperCase() > b.image_url.toUpperCase() ? 1 : -1
+            )
+            .map((card, index) => {
+              const cardAttributes = () =>
+                `${card.category ? `${card.category} ` : ""}${
+                  card.type ? `${card.type} ` : ""
+                }${card.instant ? "instant " : ""}${
+                  card.travel ? "travel " : ""
+                }${card.attach ? "attach " : ""}${
+                  card.class ? `${card.class} ` : ""
+                }${card.spec ? `${card.spec} ` : ""}${
+                  card.colors ? card.colors.join(" ") : ""
+                }`;
+              let isShown;
+              if (activeFilters.length > 0) {
+                isShown = false;
+                activeFilters.forEach((filter) => {
+                  if (cardAttributes().includes(filter)) {
+                    isShown = true;
+                  }
+                });
+              } else {
+                isShown = true;
+              }
+              return (
+                <li key={index} className={isShown ? "shown" : "hidden"}>
+                  <img
+                    src={card.imageUrl}
+                    style={{
+                      width: "221px",
+                      height: "304px",
+                      backgroundColor: "rgba(0,0,0,.1)",
+                    }}
+                    alt={`${card.image_url.split(".")[0]} card`}
+                  />
+                </li>
+              );
+            })}
         </ul>
       </div>
       <DeckFilters

@@ -9,15 +9,18 @@ body {
   width: 100vw;
   display: grid;
   grid-template-areas:
-    "nav nav nav"
-    "left builder right";
-  grid-template-columns: 210px 1fr 210px;
+    /* "nav nav nav"
+    "left builder right"; */
+    "nav nav"
+    "builder right";
+  grid-template-columns:
+   /* 210px 1fr 210px; */ 1fr 250px;
   grid-template-rows: auto 1fr;
 }
 
 #navbar {
   grid-area: nav;
-  background-color: #d4d4d4;
+  background-color: #a3b18a;
 }
 
 #navbar menu {
@@ -43,6 +46,20 @@ body {
   box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
+::-webkit-scrollbar {
+  width: 16px;
+}
+
+::-webkit-scrollbar-track {
+  background: #dad7cd;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #344e41;
+  border: solid #dad7cd 2px;
+  border-radius: 6px;
+}
+
 #builder-container ul {
   display: flex;
   flex-flow: row wrap;
@@ -50,8 +67,8 @@ body {
 }
 
 #deck-filters {
-  background-color: #d4d4d4;
-  font-size: 0.8rem;
+  background-color: #a3b18a;
+  font-size: 0.7rem;
   grid-area: right;
   overflow-y: auto; /* Make sure filters are also scrollable if needed */
   height: 100%; /* Ensure it takes the full height of its grid area */
@@ -66,7 +83,7 @@ body {
   display: flex;
   flex-flow: row wrap;
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #344e41;
   margin-bottom: 10px;
 }
 
@@ -74,12 +91,24 @@ body {
   text-align: center;
 }
 
-#deck-filters fieldset div {
+#deck-filters .three-col div {
   width: calc(100% / 3);
   display: block;
   text-align: center;
   position: relative;
   padding: 6px;
+}
+
+#deck-filters .two-col div {
+  width: calc(100% / 2);
+  display: block;
+  text-align: center;
+  position: relative;
+  padding: 6px;
+}
+
+label {
+  color: inherit;
 }
 
 #deck-filters fieldset div input[type="checkbox"] {
@@ -90,10 +119,17 @@ body {
   width: 100%;
   height: 100%;
   appearance: none;
+  transition-duration: 0.1s;
 }
 
-#deck-filters fieldset div input:checked {
-  border: 1px solid black;
+#deck-filters fieldset div:has(> input:checked) {
+  background-color: #344e41;
+  color: white;
+}
+
+#deck-filters fieldset div input[type="checkbox"]:hover {
+  cursor: pointer;
+  border: 1px solid #344e41;
 }
 
 .hidden {

@@ -49,11 +49,65 @@ function DeckFilters({ activeFilters, updateFilters }) {
     updateFilters(updatedFilters);
   };
 
+  const parseStrings = (string) => {
+    switch (string) {
+      case "sorc":
+        return "sorcerer";
+      case "wiz":
+        return "wizard";
+      case "man":
+        return "manifest";
+      case "cryo":
+        return "cryomancer";
+      case "war":
+        return "warrior";
+      case "enchant":
+        return "enchantress";
+      case "invoke":
+        return "invoker";
+      case "illusion":
+        return "illusionist";
+      case "arch":
+        return "archmage";
+      case "ava":
+        return "avatar";
+      case "inc":
+        return "incarnate";
+      case "curse":
+        return "curseblade";
+      case "ebon":
+        return "ebon mage";
+      case "watch":
+        return "watcher";
+      case "winter":
+        return "winterborn";
+      case "hunt":
+        return "huntsman";
+      case "wild":
+        return "wilder";
+      case "surv":
+        return "survivalist";
+      case "stew":
+        return "steward";
+      default:
+        return string;
+    }
+  };
+
   return (
     <div id="deck-filters">
       {Object.entries(attributes).map((set) => {
         return (
-          <fieldset key={set[0]}>
+          <fieldset
+            key={set[0]}
+            className={
+              set[0] === "category" ||
+              set[0] === "specs" ||
+              set[0] === "classes"
+                ? "two-col"
+                : "three-col"
+            }
+          >
             <legend>{`${set[0]} Selection:`}</legend>
             {set[1].map((attr) => {
               return (
@@ -65,7 +119,9 @@ function DeckFilters({ activeFilters, updateFilters }) {
                     checked={activeFilters[attr]}
                     onChange={() => handleCheck(attr)}
                   />
-                  <label htmlFor={`${set[0]}_${attr}`}>{attr}</label>
+                  <label htmlFor={`${set[0]}_${attr}`}>
+                    {parseStrings(attr)}
+                  </label>
                 </div>
               );
             })}
