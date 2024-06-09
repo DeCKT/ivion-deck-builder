@@ -1,4 +1,4 @@
-import React, { act, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { db, st } from "../firebase";
 import { collection, onSnapshot } from "firebase/firestore";
 import { getDownloadURL, ref } from "firebase/storage";
@@ -68,13 +68,13 @@ function DeckBuilder() {
         <ul>
           {cards.map((card, index) => {
             const cardAttributes = () =>
-              `${card.category ? card.category + " " : ""}${
-                card.type ? card.type + " " : ""
-              }${card.instant ? "instant" + " " : ""}${
-                card.travel ? "travel" + " " : ""
-              }${card.attach ? "attach" + " " : ""}${
-                card.class ? card.class + " " : ""
-              }${card.spec ? card.spec + " " : ""}${
+              `${card.category ? `${card.category} ` : ""}${
+                card.type ? `${card.type} ` : ""
+              }${card.instant ? "instant " : ""}${
+                card.travel ? "travel " : ""
+              }${card.attach ? "attach " : ""}${
+                card.class ? `${card.class} ` : ""
+              }${card.spec ? `${card.spec} ` : ""}${
                 card.colors ? card.colors.join(" ") : ""
               }`;
             let isShown;
