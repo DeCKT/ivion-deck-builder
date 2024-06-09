@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 
 function DeckFilters({ activeFilters, updateFilters }) {
-  const [attributes, setAttributes] = useState({
+  const [attributes] = useState({
     category: ["class", "spec", "trait", "relic"],
     colors: ["white", "grey", "black", "red", "green", "blue"],
     type: ["ability", "attack", "passive"],
