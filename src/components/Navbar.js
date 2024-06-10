@@ -5,7 +5,6 @@ import { NavLink, useLocation } from "react-router-dom";
 
 function Navbar() {
   const [isAuthenticated] = useState(true);
-  console.log(useLocation().pathname);
   return (
     <nav id="navbar">
       <menu>

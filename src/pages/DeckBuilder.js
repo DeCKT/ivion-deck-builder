@@ -3,30 +3,28 @@ import { db, st } from "../firebase";
 import { collection, onSnapshot } from "firebase/firestore";
 import { getDownloadURL, ref } from "firebase/storage";
 import DeckFilters from "../components/DeckFilters";
+import UserDeck from "../components/UserDeck";
 
 function DeckBuilder() {
   const [cards, setCards] = useState([]);
   const [activeFilters, setActiveFilters] = useState([]);
+  const [draggingCard, setDraggingCard] = useState({});
 
   const updateFilters = (updatedFilters) => {
     setActiveFilters(updatedFilters);
-    console.log(updatedFilters);
   };
 
   useEffect(() => {
     const setLocalStorage = (cards) => {
-      console.log("Setting local storage...");
       localStorage.setItem("cards", JSON.stringify(cards));
     };
 
     const getLocalStorage = () => {
-      console.log("Getting local storage...");
       const storedCards = localStorage.getItem("cards");
       return storedCards ? JSON.parse(storedCards) : null;
     };
 
     const fetchCardsFromDB = async () => {
-      console.log("Fetching from Database...");
       onSnapshot(collection(db, "cards"), async (snapshot) => {
         const cardsData = await Promise.all(
           snapshot.docs.map(async (doc) => {
@@ -49,11 +47,7 @@ function DeckBuilder() {
   }, []);
 
   useEffect(() => {
-    console.log(activeFilters.length);
     if (activeFilters.length > 0) {
-      console.log(`active filters is ${activeFilters.length} long`);
-    } else {
-      console.log(`active filters is empty`);
     }
   }, [activeFilters]);
 
@@ -88,7 +82,11 @@ function DeckBuilder() {
                 isShown = true;
               }
               return (
-                <li key={index} className={isShown ? "shown" : "hidden"}>
+                <li
+                  key={index}
+                  className={isShown ? "shown" : "hidden"}
+                  onMouseDown={() => setDraggingCard(card)}
+                >
                   <img
                     src={card.imageUrl}
                     style={{
@@ -102,6 +100,7 @@ function DeckBuilder() {
               );
             })}
         </ul>
+        <UserDeck imageUrl={draggingCard.imageUrl} />
       </div>
       <DeckFilters
         activeFilters={activeFilters}
