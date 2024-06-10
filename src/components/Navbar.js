@@ -1,22 +1,34 @@
 import React from "react";
 
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 function Navbar() {
   const [isAuthenticated] = useState(true);
+  console.log(useLocation().pathname);
   return (
     <nav id="navbar">
       <menu>
         <li>
-          <NavLink className="nav-link" to={"/"}>
+          <NavLink
+            className={useLocation().pathname === "/" ? "current" : ""}
+            to={"/"}
+          >
             Builder
           </NavLink>
         </li>
         <li>
-          <NavLink to={"/rules"}>Rules</NavLink>
+          <NavLink
+            className={useLocation().pathname === "/rules" ? "current" : ""}
+            to={"/rules"}
+          >
+            Rules
+          </NavLink>
         </li>
-        <li style={{ display: isAuthenticated ? "list-item" : "none" }}>
+        <li
+          className={useLocation().pathname === "/mydecks" ? "current" : ""}
+          style={{ display: isAuthenticated ? "list-item" : "none" }}
+        >
           <NavLink to={"/mydecks"}>My Decks</NavLink>
         </li>
         <li>
