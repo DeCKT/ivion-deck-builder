@@ -8,7 +8,6 @@ import UserDeck from "../components/UserDeck";
 function DeckBuilder() {
   const [cards, setCards] = useState([]);
   const [activeFilters, setActiveFilters] = useState([]);
-  const [draggingCard, setDraggingCard] = useState({});
 
   const updateFilters = (updatedFilters) => {
     setActiveFilters(updatedFilters);
@@ -86,6 +85,7 @@ function DeckBuilder() {
                   key={index}
                   className={isShown ? "shown" : "hidden"}
                   onMouseDown={() => setDraggingCard(card)}
+                  onMouseUp={() => handleDrop()}
                 >
                   <img
                     src={card.imageUrl}
