@@ -8,9 +8,23 @@ import UserDeck from "../components/UserDeck";
 function DeckBuilder() {
   const [cards, setCards] = useState([]);
   const [activeFilters, setActiveFilters] = useState([]);
+  const [deckShown, setDeckShown] = useState(false);
+  const [isDraggingCard, setIsDraggingCard] = useState();
 
   const updateFilters = (updatedFilters) => {
     setActiveFilters(updatedFilters);
+  };
+
+  const handleDrag = (e, card) => {
+    e.preventDefault();
+    console.log(card);
+    setDeckShown(true);
+  };
+
+  const handleRelease = (e) => {
+    e.preventDefault();
+    console.log("letting go...");
+    setDeckShown(false);
   };
 
   useEffect(() => {
@@ -82,10 +96,9 @@ function DeckBuilder() {
               }
               return (
                 <li
+                  onMouseDown={(e) => handleDrag(e, card)}
                   key={index}
                   className={isShown ? "shown" : "hidden"}
-                  onMouseDown={() => setDraggingCard(card)}
-                  onMouseUp={() => handleDrop()}
                 >
                   <img
                     src={card.imageUrl}
@@ -100,7 +113,10 @@ function DeckBuilder() {
               );
             })}
         </ul>
-        <UserDeck imageUrl={draggingCard.imageUrl} />
+        <UserDeck
+          onMouseUp={(isDraggingCard) => handleRelease(isDraggingCard)}
+          deckShown={deckShown}
+        />
       </div>
       <DeckFilters
         activeFilters={activeFilters}
