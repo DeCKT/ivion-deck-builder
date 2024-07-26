@@ -10,20 +10,41 @@ function DeckBuilder() {
   const [activeFilters, setActiveFilters] = useState([]);
   const [deckShown, setDeckShown] = useState(false);
   const [isDraggingCard, setIsDraggingCard] = useState();
+  const [deck, setDeck] = useState([]);
+  const [isDeckHovered, setIsDeckHovered] = useState(false);
 
   const updateFilters = (updatedFilters) => {
     setActiveFilters(updatedFilters);
   };
 
-  const handleDrag = (e, card) => {
+  const handleClick = (e, card) => {
     e.preventDefault();
-    console.log(card);
-    setDeckShown(true);
+    if (e.ctrlKey) {
+      console.log("Control - Click...");
+      console.log(card);
+      setDeckShown(true);
+      setDeck([...deck, card]);
+      setTimeout(function () {
+        setDeckShown(false);
+      }, 1300);
+    } else {
+      console.log("Selected card...");
+      console.log(card);
+      console.log("Dragging card...");
+      console.log(card);
+      setIsDraggingCard(card);
+      setDeckShown(true);
+    }
   };
 
   const handleRelease = (e) => {
     e.preventDefault();
-    console.log("letting go...");
+    if (isDraggingCard) {
+      setDeck([...deck, isDraggingCard]);
+      console.log("adding card to deck...");
+      console.log(isDraggingCard);
+      setIsDraggingCard(null);
+    }
     setDeckShown(false);
   };
 
@@ -42,12 +63,16 @@ function DeckBuilder() {
         const cardsData = await Promise.all(
           snapshot.docs.map(async (doc) => {
             const data = doc.data();
+            if (!data || !data.image_url) {
+              return null; // Skip invalid card data
+            }
             const imageUrl = await getDownloadURL(ref(st, data.image_url));
             return { ...data, imageUrl };
           })
         );
-        setCards(cardsData);
-        setLocalStorage(cardsData);
+        const validCards = cardsData.filter((card) => card !== null); // Remove null values
+        setCards(validCards);
+        setLocalStorage(validCards);
       });
     };
 
@@ -59,16 +84,12 @@ function DeckBuilder() {
     }
   }, []);
 
-  useEffect(() => {
-    if (activeFilters.length > 0) {
-    }
-  }, [activeFilters]);
-
   return (
     <>
       <div id="builder-container">
         <ul>
           {cards
+            .filter((card) => card && card.imageUrl) // Ensure card and imageUrl exist
             .sort((a, b) =>
               a.image_url.toUpperCase() > b.image_url.toUpperCase() ? 1 : -1
             )
@@ -96,7 +117,7 @@ function DeckBuilder() {
               }
               return (
                 <li
-                  onMouseDown={(e) => handleDrag(e, card)}
+                  onMouseDown={(e) => handleClick(e, card)}
                   key={index}
                   className={isShown ? "shown" : "hidden"}
                 >
@@ -113,11 +134,12 @@ function DeckBuilder() {
               );
             })}
         </ul>
-        <UserDeck
-          onMouseUp={(isDraggingCard) => handleRelease(isDraggingCard)}
-          deckShown={deckShown}
-        />
       </div>
+      <UserDeck
+        onMouseUp={(isDraggingCard) => handleRelease(isDraggingCard)}
+        deckShown={deckShown}
+        deck={deck}
+      />
       <DeckFilters
         activeFilters={activeFilters}
         updateFilters={updateFilters}
