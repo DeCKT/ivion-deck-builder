@@ -1,5 +1,5 @@
 import React from "react";
-import { useState } from "react";
+// import { useState } from "react";
 
 function UserDeck(props) {
   const randomNum = () => Math.random() * 4 - 2;
@@ -14,6 +14,7 @@ function UserDeck(props) {
           <img
             style={{ transform: `rotate(${randomNum()}deg) scale(.9)` }}
             src={card.imageUrl}
+            alt=""
           />
         ))}
       </div>
