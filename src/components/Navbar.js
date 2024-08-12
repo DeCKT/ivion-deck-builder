@@ -16,7 +16,7 @@ function Navbar() {
             Builder
           </NavLink>
         </li>
-        <li>
+        {/* <li>
           <NavLink
             className={useLocation().pathname === "/rules" ? "current" : ""}
             to={"/rules"}
@@ -32,7 +32,7 @@ function Navbar() {
         </li>
         <li>
           {isAuthenticated ? <span>Logout</span> : <NavLink to={"/login"} />}
-        </li>
+        </li> */}
       </menu>
     </nav>
   );

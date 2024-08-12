@@ -31,7 +31,7 @@ body {
 }
 
 #navbar menu li:last-of-type {
-  margin-left: auto;
+  /* margin-left: auto; */
 }
 
 #navbar menu li > * {
