@@ -11,7 +11,7 @@ function DeckBuilder() {
   const [deckShown, setDeckShown] = useState(false);
   const [isDraggingCard, setIsDraggingCard] = useState();
   const [deck, setDeck] = useState([]);
-  const [isDeckHovered, setIsDeckHovered] = useState(false);
+  // const [isDeckHovered, setIsDeckHovered] = useState(false);
 
   const updateFilters = (updatedFilters) => {
     setActiveFilters(updatedFilters);

@@ -1,10 +1,10 @@
 import React from "react";
 
-import { useState } from "react";
+// import { useState } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 
 function Navbar() {
-  const [isAuthenticated] = useState(true);
+  // const [isAuthenticated] = useState(true);
   return (
     <nav id="navbar">
       <menu>
